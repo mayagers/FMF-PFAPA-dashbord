@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ד"ר מיה גרשטין - ניהול PFAPA & FMF</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media print {
+        .print-hidden { display: none !important; }
+        body { background: white !important; }
+        main { padding: 0 !important; }
+        .recharts-responsive-container { width: 100% !important; height: 300px !important; }
+      }
+      /* RTL support for Hebrew text */
+      [dir="rtl"] .text-right { text-align: right; }
+      body { direction: rtl; }
+      nav { direction: ltr; } /* Keep sidebar nav LTR for standard layout */
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-gray-900">
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "AutoInflammatory Dashboard (PFAPA & FMF)",
+  "description": "A clinical decision support dashboard for pediatricians to manage and understand PFAPA and FMF, featuring diagnostic calculators and fever trackers.",
+  "requestFramePermissions": []
+}
